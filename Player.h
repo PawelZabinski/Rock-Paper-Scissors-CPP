@@ -3,8 +3,8 @@
 class Player
 {
   private:
-    int wins = 0;
-    int losses = 0;
+    unsigned int wins = 0;
+    unsigned int losses = 0;
     int userChoice;
     const std::string name;
   public:
